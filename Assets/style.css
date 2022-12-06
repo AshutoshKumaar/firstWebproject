@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Freehand&family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,300;0,400;1,100;1,300&display=swap');
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.body {
+    max-width: 100%;
+}
+.navbar {
+    margin-top: 0px;
+    width: 100%;
+    height: 5vh;
+    background-color: yellow;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.main_div {
+    background-color: aliceblue;
+    width: 100%;
+    
+  
+}
+.login_page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(255,255,255);
+    width: 100%;
+ 
+   
+}
+.child_conatiner  {
+    width: 120px;
+    /* background-color: yellow; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.child_conatiner img {
+    width: 100%;
+}
+.inpt_data {
+
+    padding: 0px 40px;
+    width: 450px;
+    /* background-color: rgb(0, 242, 255); */
+    text-align: center;
+   
+  
+}
+.input_div {
+    width: 400px;
+    /* text-align: center; */
+    padding: 0px 25px;
+    
+   
+}
+
+.input_div input {
+    width: 90%;
+    margin-top: 8px;
+    padding: 12px 15px;
+    z-index: 1;
+    text-align: left;
+    background-color: #f5f6f7;
+    border-radius: 5px;
+    border: 1px solid #f5f6f7; 
+    outline:none;
+}
+.add_classs {
+    outline:  1px solid black;
+}
+.input_div button {
+    margin-top: 8px;
+    width: 90%;
+    padding: 8px 1px;
+    border: none;
+    outline: none;
+    background-color: #1877f2;
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-shadow: 0 -1px rgb(0 0 0 / 25%);
+    z-index: 0;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+.link {
+   text-decoration: none;
+   line-height: 16px;
+   font-family: 'Roboto', sans-serif;
+   word-spacing: 1px;
+   font-size: 14px;
+   color: #1877f2;
+}
+.new_accounts{
+    margin-top: 13px;   
+}
+.new_accounts button {
+    padding: 10px 30px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-family: sans-serif;
+    z-index: 0;
+    background-color: #00a400;
+    box-shadow: none;
+    font-size: 15px;
+    border: 10px;
+}
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+.first_line , .Second_line {
+    width: 180px;
+    height: 1px;
+    margin-top: 5px;
+    background-color:#ccd0d5;
+}
+
+.first_line {
+    margin-right: 8px;
+    
+}
+.Second_line {
+    margin-left: 8px;
+}
+.text {
+    font-size: 15px;
+    font-weight: 500;
+}
+.footer {
+   
+    
+    position: relative;
+}
+.foot {
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    padding-right: 30px;
+    width: 400px;
+    background-color:transparent;
+    justify-content: center;
+
+}
+.languages {
+    display: flex;
+    justify-content: space-between;
+   
+}
+.division ul li , a {
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.meta_logo {
+    margin-top: 30px;
+    text-align: center;
+}
+.meta_logo span {
+    font-weight: 500;
+    word-spacing: 2px;
+}
+
+/* Csss Media Queries */
+
+
+@media screen and (max-width:400px) {
+    body {
+        background-color:  #fbfcff;
+        width: 100%;
+    }
+    .login_page {
+        margin-top: 20px;
+        background-color:  #fbfcff;
+        width: 100%;   
+    }
+    .main_div {
+        background-color: aliceblue;  
+    }
+    .inpt_data {
+        padding: 0px 0px;
+        width: 100%;    
+        text-align: center; 
+    }
+    .input_div {
+        width: 100%;
+        padding: 0px 5px;      
+    }
+    
+   .navbar {
+    width: 100%;
+    padding: 5px;
+    background-color:#dad8c9;
+    color: #3b5998;
+   }
+   .navbar p {
+    padding: 0px;
+   }
+   .inpt_data {
+    padding: 0px 0px;
+    width: 100%;
+    text-align: center;
+}
+.line {
+    display: flex;
+    align-items: center;
+    margin: 10px 10px;
+}
+.first_line, .Second_line {
+    width: 130px;    
+    height: 1px;
+    margin-top: 5px;
+    background-color: #ccd0d5;
+}
+.first_line {
+    margin-right: 10px;
+    
+}
+.Second_line {
+    margin-left: 10px;
+}
+.foot {
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    padding:0px 10px;
+    width: 100%;
+    background-color:transparent;
+}
+.languages {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+    
+}
+
+
+
+ 
